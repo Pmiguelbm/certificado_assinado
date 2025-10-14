@@ -1,0 +1,124 @@
+2025-10-14 19:48:50,666 - INFO - Iniciando teste com certificados válidos
+2025-10-14 19:48:50,667 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 19:48:50,760 - INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+2025-10-14 19:48:50,764 - INFO - ASSINATURA [FALHA] - Assinatura para documento_valido.txt
+2025-10-14 19:48:50,764 - ERROR - Erro na assinatura: Incorrect password, could not decrypt key
+2025-10-14 19:48:50,775 - ERROR - Falha na assinatura: INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+INFO - ASSINATURA [FALHA] - Assinatura para documento_valido.txt
+ERROR - Erro na assinatura: Incorrect password, could not decrypt key
+
+2025-10-14 19:48:50,775 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 19:48:50,776 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 19:49:54,940 - INFO - Calculado hash SHA-256 do documento: documento_atacante.txt
+2025-10-14 19:49:55,147 - INFO - Chave privada carregada: atacante.key
+2025-10-14 19:49:55,152 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_atacante.txt
+2025-10-14 19:49:55,163 - INFO - Assinatura com certificado do atacante realizada
+2025-10-14 19:49:55,289 - INFO - SEGURANÇA [SUCESSO] - Verificação com cadeia falsa rejeitada corretamente
+2025-10-14 19:49:55,411 - INFO - SEGURANÇA [SUCESSO] - Verificação de certificado não pertencente à cadeia rejeitada corretamente
+2025-10-14 19:50:09,793 - INFO - Iniciando teste com certificados válidos
+2025-10-14 19:50:09,794 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 19:50:09,884 - INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+2025-10-14 19:50:09,890 - INFO - ASSINATURA [FALHA] - Assinatura para documento_valido.txt
+2025-10-14 19:50:09,890 - ERROR - Erro na assinatura: Incorrect password, could not decrypt key
+2025-10-14 19:50:09,901 - ERROR - Falha na assinatura: INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+INFO - ASSINATURA [FALHA] - Assinatura para documento_valido.txt
+ERROR - Erro na assinatura: Incorrect password, could not decrypt key
+
+2025-10-14 19:50:09,902 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 19:50:09,902 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 19:51:13,986 - INFO - Calculado hash SHA-256 do documento: documento_atacante.txt
+2025-10-14 19:51:14,191 - INFO - Chave privada carregada: atacante.key
+2025-10-14 19:51:14,196 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_atacante.txt
+2025-10-14 19:51:14,208 - INFO - Assinatura com certificado do atacante realizada
+2025-10-14 19:51:14,329 - INFO - SEGURANÇA [SUCESSO] - Verificação com cadeia falsa rejeitada corretamente
+2025-10-14 19:51:14,437 - INFO - SEGURANÇA [SUCESSO] - Verificação de certificado não pertencente à cadeia rejeitada corretamente
+2025-10-14 19:53:35,142 - INFO - Iniciando teste com certificados válidos
+2025-10-14 19:53:35,143 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 19:53:35,222 - INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+2025-10-14 19:53:35,440 - INFO - Chave privada carregada: joao.key
+2025-10-14 19:53:35,445 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_valido.txt
+2025-10-14 19:53:35,456 - INFO - SUCESSO - Assinatura com certificado válido realizada com sucesso
+2025-10-14 19:53:35,571 - INFO - SUCESSO - Verificação com certificado válido realizada com sucesso
+2025-10-14 19:53:35,571 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 19:53:35,572 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 19:55:12,907 - INFO - Calculado hash SHA-256 do documento: documento_atacante.txt
+2025-10-14 19:55:13,110 - INFO - Chave privada carregada: atacante.key
+2025-10-14 19:55:13,115 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_atacante.txt
+2025-10-14 19:55:13,126 - INFO - Assinatura com certificado do atacante realizada
+2025-10-14 19:55:13,237 - INFO - SEGURANÇA [SUCESSO] - Verificação com cadeia falsa rejeitada corretamente
+2025-10-14 19:55:13,347 - INFO - SEGURANÇA [SUCESSO] - Verificação de certificado não pertencente à cadeia rejeitada corretamente
+2025-10-14 20:00:28,426 - INFO - Iniciando teste com certificados válidos
+2025-10-14 20:00:28,426 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 20:00:28,514 - ERROR - Falha na assinatura: 
+2025-10-14 20:00:28,514 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 20:00:28,515 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 20:00:28,599 - ERROR - Falha na assinatura do atacante: 
+2025-10-14 20:00:51,106 - INFO - Gerando chave privada RSA 4096 bits: C:\Users\Labins.pmw\Desktop\Atividade\pki\raiz-ca\private\raiz-ca.key
+2025-10-14 20:00:51,303 - INFO - Chave privada sem proteção de senha: C:\Users\Labins.pmw\Desktop\Atividade\pki\raiz-ca\private\raiz-ca.key
+2025-10-14 20:00:51,304 - INFO - SUCESSO - Chave privada gerada com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\raiz-ca\private\raiz-ca.key
+2025-10-14 20:00:51,304 - INFO - Criando certificado raiz: CA Raiz ICP-Brasil Simulada
+2025-10-14 20:00:51,313 - INFO - CERTIFICADO [SUCESSO] - Criação de CA Raiz para CA Raiz ICP-Brasil Simulada
+2025-10-14 20:00:51,313 - INFO - SUCESSO - Certificado raiz criado com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\raiz-ca\certs\raiz-ca.crt
+2025-10-14 20:00:51,314 - INFO - Gerando chave privada RSA 4096 bits: C:\Users\Labins.pmw\Desktop\Atividade\pki\ca-intermediaria\private\ca-intermediaria.key
+2025-10-14 20:00:51,575 - INFO - Chave privada sem proteção de senha: C:\Users\Labins.pmw\Desktop\Atividade\pki\ca-intermediaria\private\ca-intermediaria.key
+2025-10-14 20:00:51,576 - INFO - SUCESSO - Chave privada gerada com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\ca-intermediaria\private\ca-intermediaria.key
+2025-10-14 20:00:51,586 - INFO - Gerando chave privada RSA 4096 bits: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\joao\joao.key
+2025-10-14 20:00:51,950 - INFO - Chave privada protegida com senha: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\joao\joao.key
+2025-10-14 20:00:51,952 - INFO - SUCESSO - Chave privada gerada com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\joao\joao.key
+2025-10-14 20:00:51,963 - INFO - Gerando chave privada RSA 4096 bits: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\maria\maria.key
+2025-10-14 20:00:52,087 - INFO - Chave privada protegida com senha: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\maria\maria.key
+2025-10-14 20:00:52,089 - INFO - SUCESSO - Chave privada gerada com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\maria\maria.key
+2025-10-14 20:00:52,098 - INFO - Gerando chave privada RSA 4096 bits: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\fake-ca.key
+2025-10-14 20:00:52,543 - INFO - Chave privada sem proteção de senha: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\fake-ca.key
+2025-10-14 20:00:52,543 - INFO - SUCESSO - Chave privada gerada com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\fake-ca.key
+2025-10-14 20:00:52,543 - INFO - Criando certificado raiz: CA Falsa
+2025-10-14 20:00:52,549 - INFO - CERTIFICADO [SUCESSO] - Criação de CA Raiz para CA Falsa
+2025-10-14 20:00:52,549 - INFO - SUCESSO - Certificado raiz criado com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\fake-ca.crt
+2025-10-14 20:00:52,549 - INFO - Gerando chave privada RSA 4096 bits: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\atacante.key
+2025-10-14 20:00:52,737 - INFO - Chave privada sem proteção de senha: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\atacante.key
+2025-10-14 20:00:52,739 - INFO - SUCESSO - Chave privada gerada com sucesso: C:\Users\Labins.pmw\Desktop\Atividade\pki\usuarios\atacante\atacante.key
+2025-10-14 20:01:52,749 - INFO - Iniciando teste com certificados válidos
+2025-10-14 20:01:52,750 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 20:01:52,831 - INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+2025-10-14 20:01:53,041 - INFO - Chave privada carregada: joao.key
+2025-10-14 20:01:53,046 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_valido.txt
+2025-10-14 20:01:53,057 - INFO - SUCESSO - Assinatura com certificado válido realizada com sucesso
+2025-10-14 20:01:53,196 - INFO - SUCESSO - Verificação com certificado válido realizada com sucesso
+2025-10-14 20:01:53,197 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 20:01:53,197 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 20:02:19,299 - INFO - Calculado hash SHA-256 do documento: documento_atacante.txt
+2025-10-14 20:02:19,510 - INFO - Chave privada carregada: atacante.key
+2025-10-14 20:02:19,516 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_atacante.txt
+2025-10-14 20:02:19,527 - INFO - Assinatura com certificado do atacante realizada
+2025-10-14 20:02:19,650 - INFO - SEGURANÇA [SUCESSO] - Verificação com cadeia falsa rejeitada corretamente
+2025-10-14 20:02:19,759 - INFO - SEGURANÇA [SUCESSO] - Verificação de certificado não pertencente à cadeia rejeitada corretamente
+2025-10-14 20:04:08,057 - INFO - Iniciando teste com certificados válidos
+2025-10-14 20:04:08,058 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 20:04:08,133 - INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+2025-10-14 20:04:08,333 - INFO - Chave privada carregada: joao.key
+2025-10-14 20:04:08,338 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_valido.txt
+2025-10-14 20:04:08,350 - INFO - SUCESSO - Assinatura com certificado válido realizada com sucesso
+2025-10-14 20:04:08,461 - INFO - SUCESSO - Verificação com certificado válido realizada com sucesso
+2025-10-14 20:04:08,461 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 20:04:08,462 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 20:04:30,434 - INFO - Calculado hash SHA-256 do documento: documento_atacante.txt
+2025-10-14 20:04:30,634 - INFO - Chave privada carregada: atacante.key
+2025-10-14 20:04:30,639 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_atacante.txt
+2025-10-14 20:04:30,652 - INFO - Assinatura com certificado do atacante realizada
+2025-10-14 20:04:30,779 - INFO - SEGURANÇA [SUCESSO] - Verificação com cadeia falsa rejeitada corretamente
+2025-10-14 20:04:30,890 - INFO - SEGURANÇA [SUCESSO] - Verificação de certificado não pertencente à cadeia rejeitada corretamente
+2025-10-14 20:05:30,710 - INFO - Iniciando teste com certificados válidos
+2025-10-14 20:05:30,710 - INFO - Documento de teste criado: documento_valido.txt
+2025-10-14 20:05:30,810 - INFO - Calculado hash SHA-256 do documento: documento_valido.txt
+2025-10-14 20:05:31,033 - INFO - Chave privada carregada: joao.key
+2025-10-14 20:05:31,038 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_valido.txt
+2025-10-14 20:05:31,053 - INFO - SUCESSO - Assinatura com certificado válido realizada com sucesso
+2025-10-14 20:05:31,203 - INFO - SUCESSO - Verificação com certificado válido realizada com sucesso
+2025-10-14 20:05:31,204 - INFO - Iniciando teste com certificados inválidos (atacante)
+2025-10-14 20:05:31,204 - INFO - Documento de teste criado: documento_atacante.txt
+2025-10-14 20:06:05,011 - INFO - Calculado hash SHA-256 do documento: documento_atacante.txt
+2025-10-14 20:06:05,218 - INFO - Chave privada carregada: atacante.key
+2025-10-14 20:06:05,223 - INFO - ASSINATURA [SUCESSO] - Assinatura para documento_atacante.txt
+2025-10-14 20:06:05,235 - INFO - Assinatura com certificado do atacante realizada
+2025-10-14 20:06:05,349 - INFO - SEGURANÇA [SUCESSO] - Verificação com cadeia falsa rejeitada corretamente
+2025-10-14 20:06:05,459 - INFO - SEGURANÇA [SUCESSO] - Verificação de certificado não pertencente à cadeia rejeitada corretamente
